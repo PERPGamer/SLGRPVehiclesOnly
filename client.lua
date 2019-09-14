@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
 			end
 			
 			local veh = GetVehiclePedIsUsing(playerped)
-			if DoesVehicleHaveWeapons(veh) == 1 and DisableVehicleWeapons then
+			if DoesVehicleHaveWeapons(veh) == 1 and DisableVehicleWeapons and vehicleweaponhash ~= 1422046295 then
 				vehicleweapon, vehicleweaponhash = GetCurrentPedVehicleWeapon(playerped)
 				if vehicleweapon == 1 then
 					SetCurrentPedWeapon(GetPlayerPed(-1), GetHashKey("weapon_unarmed"))
