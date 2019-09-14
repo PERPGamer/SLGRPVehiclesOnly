@@ -1,3 +1,8 @@
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------Made by PERP Gamer AKA Tyler--------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 ------Config-------
 DisableBikeWings = true --Change to false if you would like to deploy the wings on like the oppressor
 DisableVehicleRocket = true --Change to false if you would like to turn on the vehicle rocket boost
