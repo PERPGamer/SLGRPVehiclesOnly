@@ -1,9 +1,9 @@
 ------Config-------
-DisableBikeWings = true
-DisableVehicleRocket = true
-DisableVehicleJump = true
-DisableVehicleTransform = true
-DisableVehicleWeapons = true
+DisableBikeWings = true --Change to false if you would like to deploy the wings on like the oppressor
+DisableVehicleRocket = true --Change to false if you would like to turn on the vehicle rocket boost
+DisableVehicleJump = true --Change to false if would like to turn on vehicle jump
+DisableVehicleTransform = true --Change to false if you would like to enable vehicle transform
+DisableVehicleWeapons = true --Change to false if you would like to enable vehicle weapons
 ----END OF CONFIG---
 
 Citizen.CreateThread(function()
